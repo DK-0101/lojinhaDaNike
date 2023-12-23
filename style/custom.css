@@ -89,6 +89,7 @@ textarea {
 
 #produtos h2 {
     color: rgb(231, 21, 21);
+    width: 95%;
 }
 
 #contato {
@@ -177,11 +178,14 @@ textarea {
 }
 
 form label {
-    color: rgb(231, 21, 21);
+    color: black;
+    font-weight: 500;
 }
 
-.form-control {
-    border: 0.1rem solid black;
+.form-control-plaintext {
+    padding: .5rem;
+    border-bottom: 0.1rem solid #000000a6;
+    margin-bottom: 0.5rem;
 }
 
 .btn-close {
@@ -191,4 +195,60 @@ form label {
 
 .modal-content {
     border: 0.3rem solid rgb(231, 21, 21);
+}
+
+.modal-title {
+    color: rgb(231, 21, 21);
+}
+
+
+
+
+@media (max-width: 2000px) {
+    .moreProd a {
+        margin-right: 1.9rem;
+    }
+}
+
+@media (max-width: 1399px) {
+    .moreProd a {
+        margin-right: 1.3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .moreProd a {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .moreProd a {
+        margin-right: 14.9rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header h1 {
+        font-size: 1.7rem;
+    }
+    
+    .header li {
+        margin: -1rem;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header li {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
 }

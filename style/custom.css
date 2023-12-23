@@ -1,0 +1,194 @@
+body {
+    background-color: #ccccccc4;
+}
+
+.header h1 {
+    color: rgb(231, 21, 21);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 6rem;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+  
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.header ul li:last-child {
+    margin-right: 0;
+}
+  
+.header ul li a {
+    color: rgb(231, 21, 21);
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #e7e2e2f3;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 7rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+#img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+#sobre {
+    margin-top: 4rem;
+}
+
+#sobrenos {
+    border-radius: 10px;
+    background-color: #ccccccf5;
+}
+
+#sobrenos a {
+    margin-bottom: 2rem;
+}
+
+#sobrenos h2, h3{
+    color: rgb(231, 21, 21);
+    font-weight: 500;
+}
+
+#produtos h2 {
+    color: rgb(231, 21, 21);
+}
+
+#contato {
+    background-color: #ccccccc4;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#contato h2 {
+    color: rgb(231, 21, 21);
+}
+
+#saibamais h5, h4 {
+    font-weight: 400;
+    color: rgb(231, 21, 21);
+}
+
+#mensagem {
+    height: 6rem;
+    color: rgb(231, 21, 21);
+    padding: 15px 0;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.erro {
+    border-color: red;
+}
+
+.valid {
+    border-color: cyan;
+}
+
+.btn {
+    border: none;
+    font-weight: 700;
+    background-color: #333;
+    color: rgb(231, 21, 21);
+}
+
+.btn:hover {
+    border: none;
+    font-weight: 700;
+    background-color: rgb(231, 21, 21);
+    color: #333;
+}
+
+.moreProd {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+}
+
+.moreProd a{
+    margin-right: 1rem;
+}
+
+.card a {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    margin-top: 1rem;;
+}
+
+.allproduts {
+    margin-top: -4rem;
+}
+
+.cart-box  p{
+    display: grid;
+    justify-content: 1fr auto;
+    justify-content: center;
+    font-weight: 800;
+    background-color: #706e6e;
+    color: rgb(65, 199, 65);
+    margin-top: 1rem;
+}
+
+.cart-box p:hover {
+    background-color: rgb(65, 199, 65);
+    color: #333;
+    font-weight: 800;
+}
+
+form label {
+    color: rgb(231, 21, 21);
+}
+
+.form-control {
+    border: 0.1rem solid black;
+}
+
+.btn-close {
+    border: none;
+    outline: none;
+}
+
+.modal-content {
+    border: 0.3rem solid rgb(231, 21, 21);
+}

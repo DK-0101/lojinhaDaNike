@@ -2,6 +2,31 @@ body {
     background-color: #ccccccc4;
 }
 
+#navbar01 {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#navbar01 button {
+    text-decoration: none;
+    border: 2px solid rgb(231, 21, 21);
+    border-radius: 0.7rem;
+}
+
+#navbar01 .navbar-brand {
+    font-size: 2rem;
+}
+
+#navbar01 a {
+    color: rgb(231, 21, 21);
+}
+
+#navbarNav li{
+    margin-right: 1rem;
+}
+
+
+/*
 .header h1 {
     color: rgb(231, 21, 21);
     font-weight: 600;
@@ -42,7 +67,7 @@ body {
 
 .header ul li a:hover {
     color: #e7e2e2f3;
-}
+}*/
 
 section {
     padding-bottom: 4rem;

@@ -21,6 +21,10 @@ body {
     color: rgb(231, 21, 21);
 }
 
+#navbar01 a:hover {
+    color: #ffff;
+}
+
 #navbarNav li{
     margin-right: 1rem;
 }
@@ -225,6 +229,24 @@ form label {
 .modal-title {
     color: rgb(231, 21, 21);
 }
+
+#skiPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
